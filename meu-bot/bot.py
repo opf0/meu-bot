@@ -188,5 +188,5 @@ async def setup_tickets(interaction: Interaction, support_role: discord.Role, ca
 
 
 # RUN BOT
-if __name__ == "__main__":
-        bot.run("MTQ3NjM0MjQyMjkxNjE2OTc4OQ.GiGEvT.W0-uqIr_4_yIg8HKBjhwWbg02n6Y1YjU5np2cM
+import os
+bot.run(os.environ.get("TOKEN"))
